@@ -1,0 +1,11 @@
+#Student information(name, age, height and status)
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+height = float(input("What's your height? "))
+status = True
+print(f"Hello {name}!")
+print(f"You are {age} years old")
+print(f"My age next year is {age+1}")
+print(f"You are {height}cm tall")
+print(f"Is a student: {status}")
+print("Hello Wolrd", sep = "#")
